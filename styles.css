@@ -1,61 +1,63 @@
-body{
+body {
     margin: 0;
 }
 
-.contenedor1{
+.contenedor1 {
     background: url(apple1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
-h2{
+h2 {
     font-size: 56px;
 
 }
 
-h3{
+h3 {
     font-size: 28px;
 }
 
 
 
-@media all and (max-width:480px){
-    h2{
+@media all and (max-width:480px) {
+    h2 {
         font-size: 32px;
     }
-    h3{
+
+    h3 {
         font-size: 19px;
     }
 
 }
 
-@media all and (max-width:1024px){
-    h2{
+@media all and (max-width:1024px) {
+    h2 {
         font-size: 48px;
     }
-    h3{
+
+    h3 {
         font-size: 24px;
     }
 
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-size: 24px;
-    
-    
+
+
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
 
 }
 
-.tvycasa{
+.tvycasa {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,18 +65,37 @@ nav{
     margin-right: 25%;
 }
 
-h1{
+h1 {
     font-size: 96px;
+    text-align: center;
 }
 
-.letras{
+.letras {
     font-size: 24px;
 }
 
 
+@media all and (min-width: 1201px) {
+    .letras {
+        font-size: 24px;
+    }
+}
 
+@media all and (min-width: 1025px) and (max-width:1200px) {
+    .letras {
+        font-size: 24px;
+    }
+}
 
+@media all and (min-width: 769px) and (max-width:1024px) {
+    .letras {
+        font-size: 21px;
+    }
+}
 
-
-
+@media all and (min-width: 320px) and (max-width:480px) {
+    .letras {
+        font-size: 17px;
+    }
+}
 
